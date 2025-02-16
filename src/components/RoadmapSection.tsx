@@ -29,7 +29,7 @@ const steps = [
   },
   {
     icon: <Award className="w-8 h-8" />,
-    title: "Certification",
+    title: "Certificate",
     description: "Receive your BDE certification and insurance discount upon successful completion.",
     color: "from-red-500 to-red-600",
     dotColor: "bg-red-500"
@@ -156,7 +156,7 @@ const RoadmapSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-gray-50 to-white" />
       
       <div ref={containerRef} className="relative py-24">
-        <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto  lg:px-8">
           {/* Title Section */}
           <div ref={titleRef} className="text-center mb-32">
             <h2 className="text-4xl lg:text-5xl font-bold text-[#2c3149] mb-6">
@@ -203,7 +203,7 @@ const RoadmapSection = () => {
 
                       {/* Content Card */}
                       <div className="roadmap-content flex-grow transform transition-all duration-500 group-hover:translate-x-2">
-                        <div className="bg-white rounded-2xl p-8 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.1)] 
+                        <div className="bg-white rounded-2xl p-4 lg:p-8 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.1)] 
                           hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.2)] transition-all duration-500
                           border border-gray-100/50 relative overflow-hidden"
                         >
